@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("./font/BebasNeue-Regular.ttf") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url('./images/overlay.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#shot-clock {
+    position: absolute;
+    bottom: 0.75%;  
+    left: 49.5%;
+    color: rgb(255, 255, 255);
+    font-size: 1.75vw;
+}
+
+#game-clock {
+    position: absolute;
+    bottom: 3.75%;  
+    left: 48%;
+    color: rgb(0, 0, 0);
+    font-size: 2.5vw;
+}
+
+#period{
+    position: absolute;
+    bottom: 9%;  
+    left: 47.5%;
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+}
+
+#home-name {
+    position: absolute;
+    bottom: 3.75%;  
+    left: 29%;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw;
+}
+
+#away-name {
+    position: absolute;
+    bottom: 3.75%;  
+    left: 59%;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw;
+}
+
+#home-score {
+    position: absolute;
+    bottom: 4%;  
+    left: 42.8%;
+    color: rgb(0, 0, 0);
+    font-size: 2.25vw;
+    text-align: center;
+}
+
+#away-score {
+    position: absolute;
+    bottom: 4%;  
+    left: 55.8%;
+    color: rgb(0, 0, 0);
+    font-size: 2.25vw;
+}
+
+#home-fouls {
+    position: absolute;
+    bottom: 2.25%;  
+    left: 47.5%;
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+}
+
+#away-fouls {
+    position: absolute;
+    bottom: 2.25%;  
+    left: 55.7%;
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+}
+
+.font {
+    font-family: 'BebasNeue-Regular', sans-serif;
+}
